@@ -19,10 +19,10 @@ parameters in addition to the command.
 Supports and executes any command entered. Any 
 command in /bin, /usr/bin/, /usr/local/bin/ and the current working directory.
 Shell searches in the following PATH order:  
-  a. Current working directory,  
-  b. /usr/local/bin 
-  c. /usr/bin 
-  d. /bin  
+  4a) Current working directory,  
+  4b) /usr/local/bin 
+  4c) /usr/bin 
+  4d) /bin  
   Parameters may also be combined. For example, ps may be executed as: ps –aef or ps 
   –a –e -f  
 
