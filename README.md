@@ -37,9 +37,8 @@ spawned then it shall print only those process PIDs
 result in your shell re-running the nth command.  If the nth command does not exist then 
 your shell will state “Command not in history.”.  The output shall be a list of 
 numbers 1 through n and their commands, each on a separate line, single spaced. If nth command is 
-also !k (k being some number) command does not execute.
-
-If there are less than 15 commands in the history only lists the commands the user has 
+also !k (k being some number) command does not execute. If there are less than 15 commands in the history 
+only lists the commands the user has 
 entered up to that point.
 
 
